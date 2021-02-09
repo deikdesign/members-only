@@ -7,7 +7,9 @@
     <tr>
       <th>Title</th>
       <th>Body</th>
+      <% if user_signed_in? %>
       <th>User</th>
+      <% end %>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -32,6 +34,7 @@
 <br>
 
 <% if user_signed_in? %>
+<%= link_to "Logout", destroy_user_session_path, method: :delete %>
   <%= link_to 'New Post', new_post_path %>
 <% else %>
   <%= link_to 'Sign in!',  new_user_session_url %>
