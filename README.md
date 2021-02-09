@@ -1,24 +1,56 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Members Only
 
-Things you may want to cover:
+Members-only project is made on Ruby on Rails and it an application for clubhouse members where users can make posts. All users can signup,login, logout and see what authors wrote.
 
-* Ruby version
+## Built With
+- Ruby on Rails
+- HTML
+- CSS
 
-* System dependencies
+### Rails gems:
+- Devise
 
-* Configuration
+### Additional gems:
+- rubocop
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+## Getting Started
+Can download this code with any method and over the terminal with the commands:
 
-* Services (job queues, cache servers, search engines, etc.)
+- git clone https://github.com/deikdesign/members-only
+- In order to test the relationship between User, Post and Comment model open the Rails console from the terminal with the command
+- rails s 
+- Open webpage and paste this: http://127.0.0.1:3000
+- You can try now to create a user and make a post
 
-* Deployment instructions
 
-* ...
+
+### Authors
+## Janluc Saneaux
+- 👤GitHub: [Janluc Saneaux](https://github.com/janluc)
+- Twitter: [@janluc123](https://twitter.com/janluc123)
+- Linkedin: [Janluc Saneaux](https://www.linkedin.com/in/janluc-saneaux-91707a1b4/)
+
+### Author
+## Deyan Todorov
+- 👤GitHub: [deikdesign](https://github.com/deikdesign/)
+- Twitter: [@deikdesign](https://twitter.com/deikdesign)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+## 📝 License
+
+This project is MIT licensed.
+
