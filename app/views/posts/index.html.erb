@@ -21,10 +21,6 @@
         <td><%= post.body %></td>
         <% if user_signed_in? %>
           <td><%= post.user.username %></td>
-          <% if current_user.id == post.user.id %>
-            <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-          <% end %>
-          
         <% end %>
       </tr>
     <% end %>
@@ -32,11 +28,3 @@
 </table>
 
 <br>
-
-<% if user_signed_in? %>
-<%= link_to "Logout", destroy_user_session_path, method: :delete %>
-  <%= link_to 'New Post', new_post_path %>
-<% else %>
-  <%= link_to 'Sign in!',  new_user_session_url %>
-  <%= link_to 'Register!', new_user_registration_url %>
-<% end %>
